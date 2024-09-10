@@ -1,0 +1,24 @@
+@import '../../src/sass/normalize.css';
+
+
+//abstract 
+
+@import 'abstract/constans';
+@import 'abstract/fonts';
+@import 'abstract/hover';
+
+//base 
+
+@import 'base/base';
+
+//layour 
+
+@import 'layout/wrapper';
+@import 'layout/header';
+
+//components
+
+@import 'components/dg';
+@import 'components/navigation';
+
+

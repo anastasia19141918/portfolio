@@ -47,13 +47,97 @@
   font-weight: 700;
   src: url("../../src/fonts/inter/inter-v18-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+.header__itemn:hover,
+.header__butn:hover {
+  color: #bdae82;
+  transition: 0.2s color ease-in-out;
+}
+
 html {
   font-size: 10px;
+}
+
+.body {
+  background-color: #000000;
+}
+
+li {
+  list-style-type: none;
 }
 
 .wrapper {
   max-width: 1440px;
   margin: auto;
+}
+
+.header {
+  padding: 20px 60px;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__icon {
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  background-image: url("../../src/img/icons/logo.svg");
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0px 30px;
+}
+
+.header__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 0 10px;
+}
+
+.header__butn {
+  padding: 0;
+  border: none;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.header__butn_active {
+  color: #bdae82;
+}
+
+.portfolio-dg {
+  background-image: url("../../src/img/bg/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__itemns {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  gap: 0px 31px;
+}
+
+.header__itemn {
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: 0.3s color ease-in-out;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -27,4 +27,13 @@
   width: 275px;
   height: 3px;
   background-color: $color-title;
-}
+};
+
+.title__portfolio::before {
+  width: 240px;
+};
+
+.title__portfolio::after {
+  width: 240px;
+  left: 57.5%;
+};

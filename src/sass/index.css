@@ -90,6 +90,17 @@ h1, h2, p {
   transition: 0.4s color ease-in-out;
 }
 
+.portfolio__butn {
+  border: 2px solid #bdae82;
+  background-color: transparent;
+  color: #bdae82;
+}
+
+.button_active {
+  color: #000000;
+  background-color: #bdae82;
+}
+
 .skills__img {
   width: 62px;
   height: 50px;
@@ -139,6 +150,15 @@ h1, h2, p {
   width: 275px;
   height: 3px;
   background-color: #bdae82;
+}
+
+.title__portfolio::before {
+  width: 240px;
+}
+
+.title__portfolio::after {
+  width: 240px;
+  left: 57.5%;
 }
 
 .wrapper {
@@ -280,6 +300,26 @@ h1, h2, p {
   font-style: normal;
   font-weight: 400;
   line-height: 3.6rem;
+}
+
+.portfolio {
+  padding: 40px 0px 30px 0px;
+}
+
+.portfolio__buttons {
+  padding: 60px 0px 57px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 5px;
+}
+
+.portfolio__gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px 25px;
 }
 
 /*# sourceMappingURL=index.css.map */

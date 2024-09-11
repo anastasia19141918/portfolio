@@ -1,0 +1,19 @@
+.portfolio {
+  padding: 40px 0px 30px 0px;
+};
+
+.portfolio__buttons {
+  padding: 60px 0px 57px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 5px;
+};
+
+.portfolio__gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px 25px;
+}

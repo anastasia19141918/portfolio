@@ -15,3 +15,16 @@
   transition: 0.4s color ease-in-out;
 };
 
+.portfolio__butn {
+  border: 2px solid $color-title;
+  background-color: transparent;
+  color: $color-title;
+};
+
+.button_active {
+  color: $color-background;
+  background-color: $color-title;
+}
+
+
+

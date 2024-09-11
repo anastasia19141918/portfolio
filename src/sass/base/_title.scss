@@ -1,0 +1,39 @@
+.title {
+  position: relative;
+  text-align: center;
+  color: $color-title;
+  font-size: 4.0rem;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 8.0rem;
+};
+
+.title::before {
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 25.7%;
+  width: 275px;
+  height: 3px;
+  background-color: $color-title;
+};
+
+.title::after {
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 55.3%;
+  width: 275px;
+  height: 3px;
+  background-color: $color-title;
+};
+
+.title__portfolio::before {
+  width: 240px;
+};
+
+.title__portfolio::after {
+  width: 240px;
+  left: 57.5%;
+};

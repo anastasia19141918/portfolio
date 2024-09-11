@@ -1,0 +1,19 @@
+.skills__img {
+  width: 62px;
+  height: 50px;
+  margin: 0 0 50px 0;
+  background-size: 62px 50px;
+  background-repeat: no-repeat;
+  &_photo {
+    background-image: url('../../src/img/skills/skills_camera.png');
+  }
+  &_video {
+    background-image: url('../../src/img/skills/skills_video.png');
+  }
+  &_retouch {
+    background-image: url('../../src/img/skills/skills_image.png');
+  }
+  &_audio {
+    background-image: url('../../src/img/skills/skills_mic.svg');
+  }
+};

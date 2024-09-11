@@ -3,3 +3,8 @@
   color: $color-title;
   transition: 0.2s color ease-in-out;
 };
+
+.button:hover {
+  color: $color-text;
+  transition: 0.4s color ease-in-out;
+}

@@ -1,11 +1,15 @@
 html {
   font-size: 10px;
-}
+};
 
 .body {
   background-color: $color-background;
-}
+};
 
 li {
   list-style-type: none;
+};
+
+h1, h2, p {
+  margin: 0;
 }

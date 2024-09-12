@@ -322,4 +322,16 @@ h1, h2, p {
   gap: 25px 25px;
 }
 
+.video {
+  padding: 68px 0px 30px;
+}
+
+.video__player {
+  position: relative;
+  padding: 60px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 /*# sourceMappingURL=index.css.map */

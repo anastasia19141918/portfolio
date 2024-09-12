@@ -335,7 +335,7 @@ h1, h2, h3, p {
 }
 
 .price {
-  padding: 70px 0px 30px;
+  padding: 70px 0px 100px;
 }
 
 .price__gallery {
@@ -395,6 +395,68 @@ h1, h2, h3, p {
 
 .price__btn {
   margin-bottom: 25px;
+}
+
+.contact {
+  padding: 0px 0px 195px 0px;
+  background-image: url("../../src/img/contact/contacts.png");
+  background-repeat: no-repeat;
+  background-position: 20px 30%;
+  background-size: cover;
+}
+
+.contact__inf {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  padding: 4.2% 0 0 67.4%;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__title {
+  margin-bottom: 40px;
+  color: #bdae82;
+  font-size: 4rem;
+  line-height: 8rem;
+  text-align: left;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px 0px;
+}
+
+.contact__input {
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #bdae82;
+  color: #bdae82;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  padding: 0px 0px 0px 20px;
+  color: #bdae82;
+}
+
+.contact__textarea {
+  height: 90px;
+  margin-bottom: 5px;
+  resize: none;
 }
 
 /*# sourceMappingURL=index.css.map */

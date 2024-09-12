@@ -70,7 +70,7 @@ li {
   list-style-type: none;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
   margin: 0;
 }
 
@@ -332,6 +332,69 @@ h1, h2, p {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.price {
+  padding: 70px 0px 30px;
+}
+
+.price__gallery {
+  padding: 60px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.price__itemn {
+  padding: 40px 0px 15px 0px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #bdae82;
+}
+
+.price__title {
+  margin-bottom: 22px;
+  color: #ffffff;
+  font-size: 2.8rem;
+  line-height: 5.6rem;
+  text-align: center;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.price__sum {
+  margin-bottom: 20px;
+  color: #bdae82;
+  font-size: 2.4rem;
+  line-height: 4.8rem;
+  text-align: center;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.price__text {
+  width: 180px;
+  height: 220px;
+  padding: 0 15px 0;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  text-align: center;
+}
+
+.price__btn {
+  margin-bottom: 25px;
 }
 
 /*# sourceMappingURL=index.css.map */

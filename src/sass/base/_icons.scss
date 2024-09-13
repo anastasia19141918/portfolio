@@ -17,3 +17,19 @@
     background-image: url('../../src/img/skills/skills_mic.svg');
   }
 };
+
+.icon__social {
+  width: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  &_inst {
+    background-image: url('../../src/img/icons/inst.svg');
+  }
+  &_fb {
+    background-image: url('../../src/img/icons/fb.svg');
+  }
+  &_pinterest {
+    background-image: url('../../src/img/icons/pinterest.svg');
+  }
+}

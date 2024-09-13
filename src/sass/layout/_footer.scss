@@ -1,0 +1,35 @@
+
+.footer {
+  padding: 57px 60px 30px;
+};
+
+.footer__desk {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+};
+
+.footer__block {
+  display: flex;
+  flex-direction: row;
+  gap: 0 25px;
+};
+.footer__copyright,
+.footer__year,
+.footer__git,
+.footer__link {
+  display: block;
+  color: $color-text;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  text-decoration: none;
+};
+
+.footer__itemns {
+  display: flex;
+  flex-direction: row;
+  gap: 0 45px;
+}

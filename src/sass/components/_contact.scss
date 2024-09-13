@@ -1,0 +1,63 @@
+.contact {
+  padding: 0px 0px 195px 0px;
+  background-image: url('../../src/img/contact/contacts.png');
+  background-repeat: no-repeat;
+  background-position: 20px 30%;
+  background-size: cover;
+};
+
+.contact__inf {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  padding: 4.2% 0 0 67.4%;
+  
+};
+
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+};
+
+.contact__title {
+  margin-bottom: 40px;
+  color: $color-title;
+  font-size: 4.0rem;
+  line-height: 8.0rem;
+  text-align: left;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+};
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px 0px;
+}
+
+.contact__input {
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid $color-title;
+  color: $color-title;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.0rem;
+  line-height: 4.0rem;
+};
+
+input::placeholder,
+textarea::placeholder {
+  padding: 0px 0px 0px 20px;
+  color: $color-title;
+};
+
+.contact__textarea {
+  height: 90px;
+  margin-bottom: 5px;
+  resize: none;
+}

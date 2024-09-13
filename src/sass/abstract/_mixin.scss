@@ -1,0 +1,23 @@
+@mixin color-tablet-big {
+  @media (max-width:$color-tablet-big) { @content; }
+};
+
+@mixin color-tablet {
+  @media (max-width:$color-tablet) { @content; }
+};
+
+@mixin mobale {
+  @media (max-width:$mobale) { @content; }
+};
+
+@mixin mobale-small {
+  @media (max-width:$mobale-small) { @content; }
+};
+
+@mixin phone-small {
+  @media (max-width:$phone-small) { @content; }
+};
+
+@mixin tablet-small {
+  @media (max-width:$tablet-small) { @content; }
+};

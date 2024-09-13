@@ -1,5 +1,14 @@
 .header {
   padding: 20px 60px;
+  @include color-tablet {
+    padding: 10px 60px;
+  }
+  @include mobale-small {
+    padding: 10px 40px;
+  }
+  @include phone-small {
+    padding: 10px 20px;
+  }
 };
 
 .header__wrapper {
@@ -21,6 +30,9 @@
   flex-direction: row;
   align-items: center;
   gap: 0px 30px;
+  @include color-tablet {
+    gap: 0px 20px;
+  }
 }
 
 .header__buttons {
@@ -40,6 +52,15 @@
   background: transparent;
 
   cursor: pointer;
+  @include color-tablet-big {
+    font-size: 1.7rem;
+  }
+  @include color-tablet {
+    font-size: 2.0rem;
+  }
+  @include phone-small {
+    font-size: 1.7rem;
+  }
 };
 
 .header__butn_active {

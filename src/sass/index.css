@@ -121,6 +121,22 @@ h1, h2, h3, p {
   background-image: url("../../src/img/skills/skills_mic.svg");
 }
 
+.icon__social {
+  width: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+}
+.icon__social_inst {
+  background-image: url("../../src/img/icons/inst.svg");
+}
+.icon__social_fb {
+  background-image: url("../../src/img/icons/fb.svg");
+}
+.icon__social_pinterest {
+  background-image: url("../../src/img/icons/pinterest.svg");
+}
+
 .title {
   position: relative;
   text-align: center;
@@ -211,6 +227,42 @@ h1, h2, h3, p {
 
 .header__butn_active {
   color: #bdae82;
+}
+
+.footer {
+  padding: 57px 60px 30px;
+}
+
+.footer__desk {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__block {
+  display: flex;
+  flex-direction: row;
+  gap: 0 25px;
+}
+
+.footer__copyright,
+.footer__year,
+.footer__git,
+.footer__link {
+  display: block;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  text-decoration: none;
+}
+
+.footer__itemns {
+  display: flex;
+  flex-direction: row;
+  gap: 0 45px;
 }
 
 .portfolio-dg {

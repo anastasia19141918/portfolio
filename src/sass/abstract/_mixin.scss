@@ -1,5 +1,47 @@
+@mixin desktop-big {
+  @media (max-width:$desktop-big) { @content; }
+};
+
+@mixin desktop-tile-big {
+  @media (max-width:$desktop-tile-big) { @content; }
+};
+
+@mixin desktop-title-small {
+  @media (max-width:$desktop-title-small) { @content; }
+};
+
+
+@mixin desktop-small {
+  @media (max-width:$desktop-small) { @content; }
+};
+
 @mixin color-tablet-big {
   @media (max-width:$color-tablet-big) { @content; }
+};
+
+@mixin tablet-big {
+  @media (max-width:$tablet-big) { @content; }
+};
+
+@mixin tablet-big-title {
+  @media (max-width:$tablet-big-title) { @content; }
+};
+
+@mixin tablet-small-title {
+  @media (max-width:$tablet-small-title) { @content; }
+};
+
+@mixin tablet-title {
+  @media (max-width:$tablet-title) { @content; }
+};
+
+@mixin tablet-big-skills {
+  @media (max-width:$tablet-big-skills) { @content; }
+};
+
+
+@mixin tablet-big-small {
+  @media (max-width:$tablet-big-small) { @content; }
 };
 
 @mixin color-tablet {
@@ -10,8 +52,20 @@
   @media (max-width:$mobale) { @content; }
 };
 
+@mixin phone-big {
+  @media (max-width:$phone-big) { @content; }
+};
+
+@mixin phone-title {
+  @media (max-width:$phone-title) { @content; }
+};
+
 @mixin mobale-small {
   @media (max-width:$mobale-small) { @content; }
+};
+
+@mixin mobale-small-skill {
+  @media (max-width:$mobale-small-skill) { @content; }
 };
 
 @mixin phone-small {

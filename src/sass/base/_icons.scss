@@ -4,6 +4,14 @@
   margin: 0 0 50px 0;
   background-size: 62px 50px;
   background-repeat: no-repeat;
+  @include desktop-big {
+    margin: 0 0 30px 0;
+  }
+  @include mobale-small-skill {
+    width: 52px;
+    height: 40px;
+    background-size: 52px 40px;
+  }
   &_photo {
     background-image: url('../../src/img/skills/skills_camera.png');
   }

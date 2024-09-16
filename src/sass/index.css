@@ -55,7 +55,7 @@
 
 .button:hover {
   color: #ffffff;
-  transition: 0.4s color ease-in-out;
+  transition: 0.4s color linear;
 }
 
 html {
@@ -89,7 +89,7 @@ h1, h2, h3, p {
   background-color: #bdae82;
   border: 0;
   cursor: pointer;
-  transition: 0.4s color ease-in-out;
+  transition: 0.4s color linear;
 }
 
 .portfolio__butn {
@@ -109,6 +109,18 @@ h1, h2, h3, p {
   margin: 0 0 50px 0;
   background-size: 62px 50px;
   background-repeat: no-repeat;
+}
+@media (max-width: 1307px) {
+  .skills__img {
+    margin: 0 0 30px 0;
+  }
+}
+@media (max-width: 345px) {
+  .skills__img {
+    width: 52px;
+    height: 40px;
+    background-size: 52px 40px;
+  }
 }
 .skills__img_photo {
   background-image: url("../../src/img/skills/skills_camera.png");
@@ -149,6 +161,16 @@ h1, h2, h3, p {
   font-weight: 700;
   line-height: 8rem;
 }
+@media (max-width: 768px) {
+  .title {
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 345px) {
+  .title {
+    font-size: 3rem;
+  }
+}
 
 .title::before {
   content: "";
@@ -159,6 +181,91 @@ h1, h2, h3, p {
   height: 3px;
   background-color: #bdae82;
 }
+@media (max-width: 1307px) {
+  .title::before {
+    left: 17%;
+  }
+}
+@media (max-width: 1214px) {
+  .title::before {
+    left: 15%;
+  }
+}
+@media (max-width: 1082px) {
+  .title::before {
+    left: 10%;
+  }
+}
+@media (max-width: 995px) {
+  .title::before {
+    left: 8%;
+  }
+}
+@media (max-width: 900px) {
+  .title::before {
+    left: 5%;
+  }
+}
+@media (max-width: 870px) {
+  .title::before {
+    width: 245px;
+    left: 9%;
+  }
+}
+@media (max-width: 828px) {
+  .title::before {
+    left: 6%;
+  }
+}
+@media (max-width: 820px) {
+  .title::before {
+    left: 4%;
+  }
+}
+@media (max-width: 768px) {
+  .title::before {
+    width: 119px;
+    left: 27%;
+  }
+}
+@media (max-width: 745px) {
+  .title::before {
+    left: 17%;
+  }
+}
+@media (max-width: 665px) {
+  .title::before {
+    left: 15%;
+  }
+}
+@media (max-width: 685px) {
+  .title::before {
+    left: 10%;
+  }
+}
+@media (max-width: 540px) {
+  .title::before {
+    width: 105px;
+  }
+}
+@media (max-width: 465px) {
+  .title::before {
+    width: 100px;
+    left: 5%;
+  }
+}
+@media (max-width: 418px) {
+  .title::before {
+    width: 80px;
+    left: 10%;
+  }
+}
+@media (max-width: 345px) {
+  .title::before {
+    width: 50px;
+    left: 13%;
+  }
+}
 
 .title::after {
   content: "";
@@ -168,6 +275,91 @@ h1, h2, h3, p {
   width: 275px;
   height: 3px;
   background-color: #bdae82;
+}
+@media (max-width: 1307px) {
+  .title::after {
+    left: 63%;
+  }
+}
+@media (max-width: 1214px) {
+  .title::after {
+    left: 60%;
+  }
+}
+@media (max-width: 1082px) {
+  .title::after {
+    left: 65%;
+  }
+}
+@media (max-width: 995px) {
+  .title::after {
+    left: 63%;
+  }
+}
+@media (max-width: 900px) {
+  .title::after {
+    left: 65%;
+  }
+}
+@media (max-width: 870px) {
+  .title::after {
+    width: 245px;
+    left: 63%;
+  }
+}
+@media (max-width: 828px) {
+  .title::after {
+    left: 65%;
+  }
+}
+@media (max-width: 820px) {
+  .title::after {
+    left: 66%;
+  }
+}
+@media (max-width: 768px) {
+  .title::after {
+    width: 119px;
+    left: 57%;
+  }
+}
+@media (max-width: 745px) {
+  .title::after {
+    left: 65%;
+  }
+}
+@media (max-width: 665px) {
+  .title::after {
+    left: 67%;
+  }
+}
+@media (max-width: 685px) {
+  .title::after {
+    left: 69%;
+  }
+}
+@media (max-width: 540px) {
+  .title::after {
+    width: 105px;
+  }
+}
+@media (max-width: 465px) {
+  .title::after {
+    width: 100px;
+    left: 72%;
+  }
+}
+@media (max-width: 418px) {
+  .title::after {
+    width: 80px;
+    left: 70%;
+  }
+}
+@media (max-width: 345px) {
+  .title::after {
+    width: 50px;
+    left: 73%;
+  }
 }
 
 .title__portfolio::before {
@@ -308,6 +500,16 @@ h1, h2, h3, p {
   background-position: -15px 55%;
   background-size: cover;
 }
+@media (max-width: 995px) {
+  .portfolio-dg {
+    background-size: auto 620px;
+  }
+}
+@media (max-width: 768px) {
+  .portfolio-dg {
+    background-position: -2px -20%;
+  }
+}
 
 @media (max-width: 768px) {
   .header__navigation {
@@ -378,6 +580,11 @@ h1, h2, h3, p {
 .hero {
   padding: 185px 120px 330px 120px;
 }
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 60px 230px 60px;
+  }
+}
 
 .hero__title {
   margin: 0 0 35px 0;
@@ -386,6 +593,13 @@ h1, h2, h3, p {
   font-family: "Merriweather";
   font-style: normal;
   font-weight: 700;
+}
+@media (max-width: 768px) {
+  .hero__title {
+    margin: 0 0 21px 0;
+    font-size: 3.2rem;
+    line-height: 6.4rem;
+  }
 }
 
 .hero__text {
@@ -398,9 +612,21 @@ h1, h2, h3, p {
   font-style: normal;
   font-weight: 400;
 }
+@media (max-width: 768px) {
+  .hero__text {
+    width: 390px;
+    margin: 0 0 55px 0;
+    line-height: 2.4rem;
+  }
+}
 
 .skills {
   padding: 99px 0px 30px;
+}
+@media (max-width: 768px) {
+  .skills {
+    padding: 0px 0px 30px;
+  }
 }
 
 .skills__gallery {
@@ -409,6 +635,32 @@ h1, h2, h3, p {
   gap: 0px 40px;
   padding: 60px 20px 40px;
 }
+@media (max-width: 1307px) {
+  .skills__gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 0.3fr);
+    justify-content: center;
+    align-items: center;
+    gap: 70px 30px;
+  }
+}
+@media (max-width: 768px) {
+  .skills__gallery {
+    padding: 50px 40px 40px;
+    grid-template-columns: repeat(2, 0.1fr);
+    gap: 70px 50px;
+  }
+}
+@media (max-width: 665px) {
+  .skills__gallery {
+    grid-template-columns: repeat(1, 0.1fr);
+  }
+}
+@media (max-width: 345px) {
+  .skills__gallery {
+    gap: 30px 0px;
+  }
+}
 
 .skills__itemn {
   width: 320px;
@@ -416,6 +668,11 @@ h1, h2, h3, p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .skills__itemn {
+    width: 300px;
+  }
 }
 
 .skills__title {
@@ -428,6 +685,16 @@ h1, h2, h3, p {
   font-weight: 400;
   line-height: 4rem;
 }
+@media (max-width: 1307px) {
+  .skills__title {
+    margin: 0 0 10px 0;
+  }
+}
+@media (max-width: 345px) {
+  .skills__title {
+    font-size: 1.8rem;
+  }
+}
 
 .skills__text {
   width: 280px;
@@ -438,6 +705,17 @@ h1, h2, h3, p {
   font-style: normal;
   font-weight: 400;
   line-height: 3.6rem;
+}
+@media (max-width: 1307px) {
+  .skills__text {
+    line-height: 3rem;
+  }
+}
+@media (max-width: 345px) {
+  .skills__text {
+    width: 260px;
+    font-size: 1.6rem;
+  }
 }
 
 .portfolio {

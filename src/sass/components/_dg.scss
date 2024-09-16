@@ -3,4 +3,10 @@
   background-repeat: no-repeat;
   background-position: -15px 55%;
   background-size: cover;
+  @include desktop-small {
+    background-size: auto 620px;
+  }
+  @include color-tablet {
+    background-position: -2px -20%;
+  }
 };

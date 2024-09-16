@@ -1017,6 +1017,11 @@ h1, h2, h3, p {
 .video {
   padding: 68px 0px 30px;
 }
+@media (max-width: 768px) {
+  .video {
+    padding: 50px 0px 30px;
+  }
+}
 
 .video__player {
   position: relative;
@@ -1025,9 +1030,26 @@ h1, h2, h3, p {
   justify-content: center;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .video__player {
+    padding: 50px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video__img {
+    width: 768px;
+    height: 418px;
+  }
+}
 
 .price {
   padding: 70px 0px 100px;
+}
+@media (max-width: 768px) {
+  .price {
+    padding: 50px 0px 75px;
+  }
 }
 
 .price__gallery {
@@ -1037,7 +1059,19 @@ h1, h2, h3, p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0 20px;
+  gap: 20px 20px;
+}
+@media (max-width: 1082px) {
+  .price__gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 0.1fr);
+  }
+}
+@media (max-width: 768px) {
+  .price__gallery {
+    padding: 50px 0px 0px 0px;
+    gap: 50px 20px;
+  }
 }
 
 .price__itemn {
@@ -1048,6 +1082,27 @@ h1, h2, h3, p {
   justify-content: center;
   align-items: center;
   border: 3px solid #bdae82;
+}
+@media (max-width: 768px) {
+  .price__itemn {
+    width: 420px;
+  }
+}
+@media (max-width: 540px) {
+  .price__itemn {
+    width: 380px;
+    padding: 20px 0px 0px 0px;
+  }
+}
+@media (max-width: 418px) {
+  .price__itemn {
+    width: 280px;
+  }
+}
+@media (max-width: 387px) {
+  .price__itemn {
+    width: 240px;
+  }
 }
 
 .price__title {
@@ -1060,6 +1115,11 @@ h1, h2, h3, p {
   font-style: normal;
   font-weight: 700;
 }
+@media (max-width: 540px) {
+  .price__title {
+    font-size: 2.2rem;
+  }
+}
 
 .price__sum {
   margin-bottom: 20px;
@@ -1070,6 +1130,12 @@ h1, h2, h3, p {
   font-family: "Merriweather";
   font-style: normal;
   font-weight: 700;
+}
+@media (max-width: 540px) {
+  .price__sum {
+    margin-bottom: 5px;
+    font-size: 2.2rem;
+  }
 }
 
 .price__text {
@@ -1083,6 +1149,11 @@ h1, h2, h3, p {
   font-size: 1.8rem;
   line-height: 3.6rem;
   text-align: center;
+}
+@media (max-width: 540px) {
+  .price__text {
+    font-size: 1.5rem;
+  }
 }
 
 .price__btn {

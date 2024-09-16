@@ -1,5 +1,8 @@
 .video {
   padding: 68px 0px 30px;
+  @include color-tablet {
+    padding: 50px 0px 30px;
+  }
 };
 
 .video__player {
@@ -8,5 +11,15 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  @include color-tablet {
+    padding: 50px 0px 0px 0px;
+  }
 };
+
+.video__img {
+  @include color-tablet {
+    width: 768px;
+    height: 418px;
+  }
+}
 

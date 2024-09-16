@@ -1,5 +1,8 @@
 .price {
   padding: 70px 0px 100px;
+  @include color-tablet {
+    padding: 50px 0px 75px;
+  }
 };
 
 .price__gallery {
@@ -9,7 +12,15 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0 20px;
+  gap: 20px 20px;
+  @include desktop-title-small {
+    display: grid;
+    grid-template-columns: repeat(1, 0.1fr);
+  }
+  @include color-tablet {
+    padding: 50px 0px 0px 0px;
+    gap: 50px 20px;
+  }
 }
 
 .price__itemn {
@@ -20,6 +31,19 @@
   justify-content: center;
   align-items: center;
   border: 3px solid $color-title;
+  @include color-tablet {
+    width: 420px;
+  }
+  @include tablet-small {
+    width: 380px;
+    padding: 20px 0px 0px 0px;
+  }
+  @include mobale {
+    width: 280px;
+  }
+  @include mobale-big-porfolio {
+    width: 240px;
+  }
 }
 
 .price__title {
@@ -31,6 +55,9 @@
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 700;
+  @include tablet-small {
+    font-size: 2.2rem;
+  }
 };
 
 .price__sum {
@@ -42,6 +69,10 @@
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 700;
+  @include tablet-small {
+    margin-bottom: 5px;
+    font-size: 2.2rem;
+  }
 };
 
 .price__text {
@@ -55,6 +86,9 @@
   font-size: 1.8rem;
   line-height: 3.6rem;
   text-align: center;
+  @include tablet-small {
+    font-size: 1.5rem;
+  }
 };
 
 .price__btn {

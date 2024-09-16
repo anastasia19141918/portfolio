@@ -91,6 +91,12 @@ h1, h2, h3, p {
   cursor: pointer;
   transition: 0.4s color linear;
 }
+@media (max-width: 540px) {
+  .button {
+    width: 200px;
+    font-size: 1.8rem;
+  }
+}
 
 .portfolio__butn {
   border: 2px solid #bdae82;
@@ -510,6 +516,34 @@ h1, h2, h3, p {
     background-position: -2px -20%;
   }
 }
+@media (max-width: 745px) {
+  .portfolio-dg {
+    background-size: auto 600px;
+    background-position: 40% -20%;
+  }
+}
+@media (max-width: 540px) {
+  .portfolio-dg {
+    background-position: 45% 50%;
+  }
+}
+@media (max-width: 465px) {
+  .portfolio-dg {
+    background-size: auto 500px;
+    background-position: 45% 90%;
+  }
+}
+@media (max-width: 418px) {
+  .portfolio-dg {
+    background-size: auto 470px;
+    background-position: 52% 80%;
+  }
+}
+@media (max-width: 362px) {
+  .portfolio-dg {
+    background-position: 55% 80%;
+  }
+}
 
 @media (max-width: 768px) {
   .header__navigation {
@@ -601,6 +635,11 @@ h1, h2, h3, p {
     line-height: 6.4rem;
   }
 }
+@media (max-width: 540px) {
+  .hero__title {
+    font-size: 3rem;
+  }
+}
 
 .hero__text {
   width: 470px;
@@ -617,6 +656,12 @@ h1, h2, h3, p {
     width: 390px;
     margin: 0 0 55px 0;
     line-height: 2.4rem;
+  }
+}
+@media (max-width: 540px) {
+  .hero__text {
+    width: 240px;
+    font-size: 1.8rem;
   }
 }
 

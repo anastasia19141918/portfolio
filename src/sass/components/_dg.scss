@@ -9,4 +9,22 @@
   @include color-tablet {
     background-position: -2px -20%;
   }
+  @include tablet-title {
+    background-size: auto 600px;
+    background-position: 40% -20%;
+  }
+  @include tablet-small {
+    background-position: 45% 50%;
+  }
+  @include phone-title {
+    background-size: auto 500px;
+    background-position: 45% 90%;
+  }
+  @include mobale {
+    background-size: auto 470px;
+    background-position: 52% 80%;
+  }
+  @include mobale-small {
+    background-position: 55% 80%;
+  }
 };

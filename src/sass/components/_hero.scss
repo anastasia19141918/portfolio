@@ -17,6 +17,9 @@
     font-size: 3.2rem;
     line-height: 6.4rem
   }
+  @include tablet-small {
+    font-size: 3.0rem;
+  }
 };
 
 .hero__text {
@@ -32,5 +35,9 @@
     width: 390px;
     margin: 0 0 55px 0;
     line-height: 2.4rem;
+  }
+  @include tablet-small {
+    width: 240px;
+    font-size: 1.8rem;
   }
 }

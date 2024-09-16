@@ -4,14 +4,63 @@
   background-repeat: no-repeat;
   background-position: 20px 30%;
   background-size: cover;
+  @include desktop-title-small {
+    background-position: 50% 30%;
+  }
+  @include tablet-big {
+    background-position: 30% 30%;
+  }
+  @include color-tablet {
+    background-size: auto 600px;
+    background-position: 48% 0%;
+  }
+  @include tablet-big-skills {
+    background-size: auto 600px;
+    background-position: 20% 0%;
+  }
+  @include phone-title {
+    background-size: auto 480px;
+    background-position: 20% 0%;
+    padding: 0px 0px 30px 0px;
+  }
 };
+
 
 .contact__inf {
   width: 445px;
   display: flex;
   flex-direction: column;
   padding: 4.2% 0 0 67.4%;
-  
+  @include desktop-big-contact {
+    padding: 4.2% 0 0 55%;
+  }
+  @include desktop-title-small {
+    padding: 4.2% 0 0 35%;
+  }
+  @include color-tablet {
+    padding: 7% 0 0 21%;
+  }
+  @include tablet-big-skills {
+    padding: 7% 0 0 10%;
+  }
+  @include tablet-small {
+    width: 345px;
+    padding: 7% 0 0 15%;
+  }
+  @include phone-title {
+    width: 315px;
+    padding: 4% 0 0 12%;
+  }
+  @include mobale {
+    width: 215px;
+    padding: 4% 0 0 18%;
+  }
+  @include mobale-small-skill {
+    padding: 4% 0 0 15%;
+  }
+  @include phone-small {
+    padding: 4% 0 0 12%;
+  }
 };
 
 
@@ -29,6 +78,20 @@
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 700;
+  @include color-tablet {
+    font-size: 3.2rem;
+  }
+  @include color-tablet {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  @include tablet-small {
+    font-size: 2.8rem;
+  }
+  @include  phone-title {
+    font-size: 2.7rem;
+    margin-bottom: 10px;
+  }
 };
 
 .contact__form {
@@ -48,16 +111,37 @@
   font-weight: 400;
   font-size: 2.0rem;
   line-height: 4.0rem;
+  @include tablet-small {
+    font-size: 1.8rem
+  }
 };
 
 input::placeholder,
 textarea::placeholder {
   padding: 0px 0px 0px 20px;
   color: $color-title;
+  @include tablet-small {
+    padding: 0px 0px 0px 10px;
+  }
 };
 
 .contact__textarea {
   height: 90px;
   margin-bottom: 5px;
   resize: none;
+  @include color-tablet {
+    margin-bottom: 9px
+  }
+};
+
+.contact__btn {
+  @include color-tablet {
+    margin-left: 26%;
+  }
+  @include  phone-title {
+    margin-left: 20%;
+  }
+  @include mobale {
+    margin-left: 10%;
+  }
 }

@@ -2,6 +2,10 @@
   @media (max-width:$desktop-big-porfolio) { @content; }
 };
 
+@mixin desktop-big-contact {
+  @media (max-width:$desktop-big-contact) { @content; }
+};
+
 @mixin desktop-big-porfolio-title {
   @media (max-width:$desktop-big-porfolio-title) { @content; }
 };

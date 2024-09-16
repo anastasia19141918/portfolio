@@ -153,6 +153,13 @@ h1, h2, h3, p {
   background-size: 32px 32px;
   background-repeat: no-repeat;
 }
+@media (max-width: 768px) {
+  .icon__social {
+    width: 22px;
+    height: 22px;
+    background-size: 22px 22px;
+  }
+}
 .icon__social_inst {
   background-image: url("../../src/img/icons/inst.svg");
 }
@@ -644,17 +651,35 @@ h1, h2, h3, p {
 .footer {
   padding: 57px 60px 30px;
 }
+@media (max-width: 768px) {
+  .footer {
+    padding: 13px 60px 30px;
+  }
+}
 
 .footer__desk {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: end;
+}
+@media (max-width: 768px) {
+  .footer__desk {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .footer__block {
   display: flex;
   flex-direction: row;
   gap: 0 25px;
+}
+@media (max-width: 768px) {
+  .footer__block {
+    gap: 0 5px;
+  }
 }
 
 .footer__copyright,
@@ -670,11 +695,34 @@ h1, h2, h3, p {
   line-height: 3.6rem;
   text-decoration: none;
 }
+@media (max-width: 768px) {
+  .footer__copyright,
+  .footer__year,
+  .footer__git,
+  .footer__link {
+    font-size: 1.3rem;
+  }
+}
 
 .footer__itemns {
   display: flex;
   flex-direction: row;
   gap: 0 45px;
+}
+@media (max-width: 768px) {
+  .footer__itemns {
+    padding: 18px 0px 0px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .footer__itemns {
+    gap: 0 35px;
+  }
+}
+@media (max-width: 768px) {
+  .footer__itemns {
+    gap: 0 15px;
+  }
 }
 
 .portfolio-dg {
@@ -1179,6 +1227,7 @@ h1, h2, h3, p {
 }
 @media (max-width: 768px) {
   .contact {
+    padding: 0px 0px 120px 0px;
     background-size: auto 600px;
     background-position: 48% 0%;
   }

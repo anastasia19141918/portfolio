@@ -11,6 +11,7 @@
     background-position: 30% 30%;
   }
   @include color-tablet {
+    padding: 0px 0px 120px 0px;
     background-size: auto 600px;
     background-position: 48% 0%;
   }

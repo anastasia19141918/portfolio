@@ -5,10 +5,14 @@ $color-text: #ffffff;
 $width: 1440px;
 
 //media
+$desktop-big-porfolio: 1388px;
+$desktop-big-porfolio-title: 1338px;
 $desktop-big: 1307px;
 $desktop-tile-big: 1214px;
+$desktop-title-big-porfolio: 1207px;
 $desktop-title-small: 1082px;
 $desktop-small: 995px;
+$desktop-small-porfolio: 925px;
 $tablet-big: 900px;
 $tablet-big-title: 870px;
 $tablet-big-small: 828px;
@@ -17,10 +21,12 @@ $color-tablet-big: 804px;
 $color-tablet: 768px;
 $tablet-title: 745px;
 $tablet-big-skills: 665px;
+$tablet-big-porfolio: 630px;
 $phone-big: 685px;
 $tablet-small: 540px;
 $phone-title: 465px;
 $mobale: 418px;
-$mobale-small-skill: 345px;
+$mobale-big-porfolio: 387px;
 $mobale-small: 362px;
+$mobale-small-skill: 345px;
 $phone-small: 308px;

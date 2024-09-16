@@ -1,3 +1,15 @@
+@mixin desktop-big-porfolio {
+  @media (max-width:$desktop-big-porfolio) { @content; }
+};
+
+@mixin desktop-big-porfolio-title {
+  @media (max-width:$desktop-big-porfolio-title) { @content; }
+};
+
+@mixin desktop-title-big-porfolio {
+  @media (max-width:$desktop-title-big-porfolio) { @content; }
+};
+
 @mixin desktop-big {
   @media (max-width:$desktop-big) { @content; }
 };
@@ -13,6 +25,10 @@
 
 @mixin desktop-small {
   @media (max-width:$desktop-small) { @content; }
+};
+
+@mixin desktop-small-porfolio {
+  @media (max-width:$desktop-small-porfolio) { @content; }
 };
 
 @mixin color-tablet-big {
@@ -39,6 +55,10 @@
   @media (max-width:$tablet-big-skills) { @content; }
 };
 
+@mixin tablet-big-porfolio {
+  @media (max-width:$tablet-big-porfolio) { @content; }
+};
+
 
 @mixin tablet-big-small {
   @media (max-width:$tablet-big-small) { @content; }
@@ -50,6 +70,10 @@
 
 @mixin mobale {
   @media (max-width:$mobale) { @content; }
+};
+
+@mixin mobale-big-porfolio {
+  @media (max-width:$mobale-big-porfolio) { @content; }
 };
 
 @mixin phone-big {

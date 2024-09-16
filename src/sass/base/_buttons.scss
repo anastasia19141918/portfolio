@@ -14,9 +14,13 @@
   cursor: pointer;
   transition: 0.4s color linear;
 
-  @include tablet-small {
+ @include tablet-small {
     width: 200px;
     font-size: 1.8rem;
+  }
+  @include mobale {
+    width: 180px;
+    font-size: 1.6rem;
   }
 };
 

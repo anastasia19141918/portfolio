@@ -97,6 +97,12 @@ h1, h2, h3, p {
     font-size: 1.8rem;
   }
 }
+@media (max-width: 418px) {
+  .button {
+    width: 180px;
+    font-size: 1.6rem;
+  }
+}
 
 .portfolio__butn {
   border: 2px solid #bdae82;
@@ -369,12 +375,183 @@ h1, h2, h3, p {
 }
 
 .title__portfolio::before {
-  width: 240px;
+  left: 23%;
+}
+@media (max-width: 1388px) {
+  .title__portfolio::before {
+    left: 22%;
+  }
+}
+@media (max-width: 1338px) {
+  .title__portfolio::before {
+    width: 240px;
+    left: 21%;
+  }
+}
+@media (max-width: 1307px) {
+  .title__portfolio::before {
+    left: 19%;
+  }
+}
+@media (max-width: 1207px) {
+  .title__portfolio::before {
+    left: 17%;
+  }
+}
+@media (max-width: 1082px) {
+  .title__portfolio::before {
+    left: 14%;
+  }
+}
+@media (max-width: 995px) {
+  .title__portfolio::before {
+    left: 12%;
+  }
+}
+@media (max-width: 925px) {
+  .title__portfolio::before {
+    left: 10%;
+  }
+}
+@media (max-width: 870px) {
+  .title__portfolio::before {
+    left: 8%;
+  }
+}
+@media (max-width: 828px) {
+  .title__portfolio::before {
+    left: 6%;
+  }
+}
+@media (max-width: 820px) {
+  .title__portfolio::before {
+    left: 5%;
+  }
+}
+@media (max-width: 804px) {
+  .title__portfolio::before {
+    left: 4.5%;
+  }
+}
+@media (max-width: 768px) {
+  .title__portfolio::before {
+    width: 90px;
+    left: 27%;
+  }
+}
+@media (max-width: 768px) {
+  .title__portfolio::before {
+    left: 23%;
+  }
+}
+@media (max-width: 630px) {
+  .title__portfolio::before {
+    left: 11%;
+  }
+}
+@media (max-width: 685px) {
+  .title__portfolio::before {
+    width: 119px;
+    left: 10%;
+  }
+}
+@media (max-width: 540px) {
+  .title__portfolio::before {
+    width: 105px;
+  }
+}
+@media (max-width: 465px) {
+  .title__portfolio::before {
+    width: 100px;
+    left: 5%;
+  }
+}
+@media (max-width: 418px) {
+  .title__portfolio::before {
+    width: 80px;
+    left: 5%;
+  }
+}
+@media (max-width: 387px) {
+  .title__portfolio::before {
+    left: 2%;
+  }
+}
+@media (max-width: 345px) {
+  .title__portfolio::before {
+    width: 50px;
+    left: 8%;
+  }
+}
+@media (max-width: 308px) {
+  .title__portfolio::before {
+    left: 5%;
+  }
 }
 
 .title__portfolio::after {
   width: 240px;
   left: 57.5%;
+}
+@media (max-width: 1307px) {
+  .title__portfolio::after {
+    left: 63%;
+  }
+}
+@media (max-width: 828px) {
+  .title__portfolio::after {
+    left: 64%;
+  }
+}
+@media (max-width: 768px) {
+  .title__portfolio::after {
+    width: 90px;
+    left: 63%;
+  }
+}
+@media (max-width: 630px) {
+  .title__portfolio::after {
+    left: 72%;
+  }
+}
+@media (max-width: 685px) {
+  .title__portfolio::after {
+    width: 119px;
+    left: 69%;
+  }
+}
+@media (max-width: 540px) {
+  .title__portfolio::after {
+    width: 105px;
+  }
+}
+@media (max-width: 465px) {
+  .title__portfolio::after {
+    width: 100px;
+    left: 72%;
+  }
+}
+@media (max-width: 418px) {
+  .title__portfolio::after {
+    width: 80px;
+    left: 75%;
+  }
+}
+@media (max-width: 387px) {
+  .title__portfolio::after {
+    left: 77%;
+  }
+}
+@media (max-width: 345px) {
+  .title__portfolio::after {
+    width: 50px;
+    left: 77%;
+  }
+}
+@media (max-width: 308px) {
+  .title__portfolio::after {
+    left: 78%;
+  }
 }
 
 .wrapper {
@@ -766,6 +943,16 @@ h1, h2, h3, p {
 .portfolio {
   padding: 40px 0px 30px 0px;
 }
+@media (max-width: 768px) {
+  .portfolio {
+    padding: 80px 0px 30px 0px;
+  }
+}
+@media (max-width: 418px) {
+  .portfolio {
+    padding: 0px 0px 30px 0px;
+  }
+}
 
 .portfolio__buttons {
   padding: 60px 0px 57px 0px;
@@ -774,6 +961,25 @@ h1, h2, h3, p {
   justify-content: center;
   gap: 0 5px;
 }
+@media (max-width: 925px) {
+  .portfolio__buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 0.1fr);
+    gap: 5px 5px;
+  }
+}
+@media (max-width: 768px) {
+  .portfolio__buttons {
+    padding: 40px 0px 57px 0px;
+    gap: 10px 20px;
+    grid-template-columns: repeat(2, 0.1fr);
+  }
+}
+@media (max-width: 540px) {
+  .portfolio__buttons {
+    grid-template-columns: repeat(1, 0.1fr);
+  }
+}
 
 .portfolio__gallery {
   display: flex;
@@ -781,6 +987,31 @@ h1, h2, h3, p {
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px 25px;
+}
+
+@media (max-width: 540px) {
+  .portfolio__img {
+    width: 400px;
+    height: 500px;
+  }
+}
+@media (max-width: 465px) {
+  .portfolio__img {
+    width: 380px;
+    height: 480px;
+  }
+}
+@media (max-width: 418px) {
+  .portfolio__img {
+    width: 280px;
+    height: 350px;
+  }
+}
+@media (max-width: 345px) {
+  .portfolio__img {
+    width: 250px;
+    height: 320px;
+  }
 }
 
 .video {

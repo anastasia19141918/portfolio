@@ -141,11 +141,121 @@
   }
 };
 
+
+//title__portfolio
+
 .title__portfolio::before {
-  width: 240px;
+  left: 23%;
+  @include desktop-big-porfolio {
+    left: 22%;
+  }
+  @include desktop-big-porfolio-title {
+    width: 240px;
+    left: 21%;
+  }
+  @include desktop-big {
+    left: 19%;
+  }
+  @include desktop-title-big-porfolio {
+    left: 17%;
+  }
+  @include desktop-title-small {
+    left: 14%;
+  }
+  @include desktop-small {
+    left: 12%;
+  }
+  @include desktop-small-porfolio {
+    left: 10%;
+  }
+  @include tablet-big-title {
+    left: 8%;
+  }
+  @include tablet-big-small {
+    left: 6%;
+  }
+  @include tablet-small-title {
+    left: 5%;
+  }
+  @include color-tablet-big {
+    left: 4.5%;
+  }
+  @include color-tablet {
+    width: 90px;
+    left: 27%;
+  }
+  @include color-tablet {
+    left: 23%;
+  }
+  @include tablet-big-porfolio {
+    left: 11%;
+  }
+  @include phone-big {
+    width: 119px;
+    left: 10%;
+  }
+  @include tablet-small {
+    width: 105px;
+  }
+  @include phone-title {
+    width: 100px;
+    left: 5%;
+  }
+  @include mobale {
+    width: 80px;
+    left: 5%;
+  }
+  @include mobale-big-porfolio {
+    left: 2%;
+  }
+  @include mobale-small-skill {
+    width: 50px;
+    left: 8%;
+  }
+  @include phone-small {
+    left: 5%;
+  }
 };
 
 .title__portfolio::after {
   width: 240px;
   left: 57.5%;
+  @include desktop-big {
+    left: 63%;
+  }
+  @include tablet-big-small {
+    left: 64%;
+  }
+  @include color-tablet {
+    width: 90px;
+    left: 63%;
+  }
+  @include tablet-big-porfolio {
+    left: 72%;
+  }
+  @include phone-big {
+    width: 119px;
+    left: 69%;
+  }
+  @include tablet-small {
+    width: 105px;
+  }
+  @include phone-title {
+    width: 100px;
+    left: 72%
+  }
+  @include mobale {
+    width: 80px;
+    left: 75%
+  }
+  @include mobale-big-porfolio {
+    left: 77%;
+  }
+  @include mobale-small-skill {
+    width: 50px;
+    left: 77%
+  }
+  @include phone-small {
+    left: 78%;
+  }
 };

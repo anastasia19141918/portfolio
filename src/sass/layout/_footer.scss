@@ -1,19 +1,32 @@
 
 .footer {
   padding: 57px 60px 30px;
+ @include color-tablet {
+  padding: 13px 60px 30px;
+  }
 };
 
 .footer__desk {
   display: flex;
   flex-direction: row;
-  justify-content: space-between
+  justify-content: space-between;
+  align-items: end;
+  @include color-tablet {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+  }
 };
 
 .footer__block {
   display: flex;
   flex-direction: row;
   gap: 0 25px;
+  @include color-tablet {
+    gap: 0 5px;
+  }
 };
+
 .footer__copyright,
 .footer__year,
 .footer__git,
@@ -26,10 +39,22 @@
   font-size: 1.8rem;
   line-height: 3.6rem;
   text-decoration: none;
+  @include color-tablet {
+    font-size: 1.3rem;
+  }
 };
 
 .footer__itemns {
   display: flex;
   flex-direction: row;
   gap: 0 45px;
+  @include color-tablet {
+    padding: 18px 0px 0px 0px;
+  }
+  @include color-tablet {
+    gap: 0 35px;
+  }
+  @include color-tablet {
+    gap: 0 15px;
+  }
 }

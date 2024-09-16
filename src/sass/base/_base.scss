@@ -1,9 +1,11 @@
 html {
+  scroll-behavior: smooth;
   font-size: 10px;
 };
 
 .body {
   background-color: $color-background;
+  overflow-x: hidden;
 };
 
 li {

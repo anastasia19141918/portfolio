@@ -7,6 +7,12 @@
   font-style: normal;
   font-weight: 700;
   line-height: 8.0rem;
+  @include color-tablet {
+    font-size: 3.2rem;
+  }
+  @include mobale-small-skill {
+    font-size: 3.0rem;
+  }
 };
 
 .title::before {
@@ -17,6 +23,59 @@
   width: 275px;
   height: 3px;
   background-color: $color-title;
+  @include desktop-big {
+    left: 17%;
+  }
+  @include desktop-tile-big {
+    left: 15%;
+  }
+  @include desktop-title-small {
+    left: 10%;
+  }
+  @include desktop-small {
+    left: 8%;
+  }
+  @include tablet-big {
+    left: 5%;
+  }
+  @include tablet-big-title {
+    width: 245px;
+    left: 9%;
+  }
+  @include tablet-big-small {
+    left: 6%;
+  }
+  @include tablet-small-title {
+    left: 4%;
+  }
+  @include color-tablet {
+    width: 119px;
+    left: 27%;
+  }
+  @include tablet-title {
+    left: 17%;
+  }
+  @include tablet-big-skills {
+    left: 15%;
+  }
+  @include phone-big {
+    left: 10%;
+  }
+  @include tablet-small {
+    width: 105px;
+  }
+  @include phone-title {
+    width: 100px;
+    left: 5%;
+  }
+  @include mobale {
+    width: 80px;
+    left: 10%;
+  }
+  @include mobale-small-skill {
+    width: 50px;
+    left: 13%;
+  }
 };
 
 .title::after {
@@ -27,13 +86,176 @@
   width: 275px;
   height: 3px;
   background-color: $color-title;
+  @include desktop-big {
+    left: 63%;
+  }
+  @include desktop-tile-big {
+    left: 60%;
+  }
+  @include desktop-title-small {
+    left: 65%;
+  }
+  @include desktop-small {
+    left: 63%;
+  }
+  @include tablet-big {
+    left: 65%
+  }
+  @include tablet-big-title {
+    width: 245px;
+    left: 63%;
+  }
+  @include tablet-big-small {
+    left: 65%;
+  }
+  @include tablet-small-title {
+    left: 66%;
+  }
+  @include color-tablet {
+    width: 119px;
+    left: 57%;
+  }
+  @include tablet-title {
+    left: 65%;
+  }
+  @include tablet-big-skills {
+    left: 67%;
+  }
+  @include phone-big {
+    left: 69%;
+  }
+  @include tablet-small {
+    width: 105px;
+  }
+  @include phone-title {
+    width: 100px;
+    left: 72%
+  }
+  @include mobale {
+    width: 80px;
+    left: 70%
+  }
+  @include mobale-small-skill {
+    width: 50px;
+    left: 73%
+  }
 };
 
+
+//title__portfolio
+
 .title__portfolio::before {
-  width: 240px;
+  left: 23%;
+  @include desktop-big-porfolio {
+    left: 22%;
+  }
+  @include desktop-big-porfolio-title {
+    width: 240px;
+    left: 21%;
+  }
+  @include desktop-big {
+    left: 19%;
+  }
+  @include desktop-title-big-porfolio {
+    left: 17%;
+  }
+  @include desktop-title-small {
+    left: 14%;
+  }
+  @include desktop-small {
+    left: 12%;
+  }
+  @include desktop-small-porfolio {
+    left: 10%;
+  }
+  @include tablet-big-title {
+    left: 8%;
+  }
+  @include tablet-big-small {
+    left: 6%;
+  }
+  @include tablet-small-title {
+    left: 5%;
+  }
+  @include color-tablet-big {
+    left: 4.5%;
+  }
+  @include color-tablet {
+    width: 90px;
+    left: 27%;
+  }
+  @include color-tablet {
+    left: 23%;
+  }
+  @include tablet-big-porfolio {
+    left: 11%;
+  }
+  @include phone-big {
+    width: 119px;
+    left: 10%;
+  }
+  @include tablet-small {
+    width: 105px;
+  }
+  @include phone-title {
+    width: 100px;
+    left: 5%;
+  }
+  @include mobale {
+    width: 80px;
+    left: 5%;
+  }
+  @include mobale-big-porfolio {
+    left: 2%;
+  }
+  @include mobale-small-skill {
+    width: 50px;
+    left: 8%;
+  }
+  @include phone-small {
+    left: 5%;
+  }
 };
 
 .title__portfolio::after {
   width: 240px;
   left: 57.5%;
+  @include desktop-big {
+    left: 63%;
+  }
+  @include tablet-big-small {
+    left: 64%;
+  }
+  @include color-tablet {
+    width: 90px;
+    left: 63%;
+  }
+  @include tablet-big-porfolio {
+    left: 72%;
+  }
+  @include phone-big {
+    width: 119px;
+    left: 69%;
+  }
+  @include tablet-small {
+    width: 105px;
+  }
+  @include phone-title {
+    width: 100px;
+    left: 72%
+  }
+  @include mobale {
+    width: 80px;
+    left: 75%
+  }
+  @include mobale-big-porfolio {
+    left: 77%;
+  }
+  @include mobale-small-skill {
+    width: 50px;
+    left: 77%
+  }
+  @include phone-small {
+    left: 78%;
+  }
 };

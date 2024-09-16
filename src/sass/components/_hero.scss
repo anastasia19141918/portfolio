@@ -1,5 +1,8 @@
 .hero {
   padding:  185px 120px 330px 120px;
+  @include color-tablet {
+    padding: 80px 60px 230px 60px;
+  }
 }
 
 .hero__title {
@@ -9,6 +12,14 @@
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 700;
+  @include color-tablet {
+    margin: 0 0 21px 0;
+    font-size: 3.2rem;
+    line-height: 6.4rem
+  }
+  @include tablet-small {
+    font-size: 3.0rem;
+  }
 };
 
 .hero__text {
@@ -20,4 +31,13 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
+  @include color-tablet {
+    width: 390px;
+    margin: 0 0 55px 0;
+    line-height: 2.4rem;
+  }
+  @include tablet-small {
+    width: 240px;
+    font-size: 1.8rem;
+  }
 }

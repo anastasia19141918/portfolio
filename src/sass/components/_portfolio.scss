@@ -1,5 +1,11 @@
 .portfolio {
   padding: 40px 0px 30px 0px;
+  @include color-tablet {
+    padding: 80px 0px 30px 0px;
+  }
+  @include mobale {
+    padding: 0px 0px 30px 0px;
+  }
 };
 
 .portfolio__buttons {
@@ -8,6 +14,19 @@
   flex-direction: row;
   justify-content: center;
   gap: 0 5px;
+  @include desktop-small-porfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 0.1fr);
+    gap: 5px 5px;
+  }
+  @include color-tablet {
+    padding: 40px 0px 57px 0px;
+    gap: 10px 20px;
+    grid-template-columns: repeat(2, 0.1fr);
+  }
+  @include tablet-small {
+    grid-template-columns: repeat(1, 0.1fr);
+  }
 };
 
 .portfolio__gallery {
@@ -16,4 +35,23 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px 25px;
-}
+};
+
+.portfolio__img {
+  @include tablet-small {
+    width: 400px;
+    height: 500px;
+  }
+  @include phone-title {
+    width: 380px;
+    height: 480px;
+  }
+  @include mobale {
+    width: 280px;
+    height: 350px;
+  }
+  @include mobale-small-skill {
+    width: 250px;
+    height: 320px;
+  }
+};

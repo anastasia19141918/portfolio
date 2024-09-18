@@ -92,6 +92,9 @@
   @include  phone-title {
     font-size: 2.7rem;
     margin-bottom: 10px;
+  };
+  @include mobale {
+    line-height: 2.5rem;
   }
 };
 

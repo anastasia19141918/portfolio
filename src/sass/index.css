@@ -574,9 +574,9 @@ h1, h2, h3, p {
     padding: 10px 60px;
   }
 }
-@media (max-width: 362px) {
+@media (max-width: 418px) {
   .header {
-    padding: 10px 40px;
+    padding: 10px 20px;
   }
 }
 @media (max-width: 308px) {
@@ -608,6 +608,11 @@ h1, h2, h3, p {
 @media (max-width: 768px) {
   .header__nav {
     gap: 0px 20px;
+  }
+}
+@media (max-width: 345px) {
+  .header__nav {
+    gap: 0px 10px;
   }
 }
 
@@ -1342,6 +1347,11 @@ h1, h2, h3, p {
     margin-bottom: 10px;
   }
 }
+@media (max-width: 418px) {
+  .contact__title {
+    line-height: 2.5rem;
+  }
+}
 
 .contact__form {
   display: flex;
@@ -1420,10 +1430,16 @@ textarea::placeholder {
     display: block;
   }
 }
+@media (max-width: 345px) {
+  .burger {
+    width: 35px;
+    height: 35px;
+  }
+}
 @media (max-width: 308px) {
   .burger {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -1462,6 +1478,15 @@ textarea::placeholder {
 .burger__active .burger__line_third {
   top: 0;
   transform: translateY(4px) rotate(-45deg);
+}
+
+.header__toggle {
+  width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
+  background-image: url("../../src/img/topik/icon_light.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=index.css.map */

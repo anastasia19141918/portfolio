@@ -617,7 +617,8 @@ h1, h2, h3, p {
   gap: 0 10px;
 }
 
-.header__butn {
+.header__butn,
+.header__butn_dash {
   padding: 0;
   border: none;
   color: #ffffff;
@@ -629,17 +630,20 @@ h1, h2, h3, p {
   cursor: pointer;
 }
 @media (max-width: 804px) {
-  .header__butn {
+  .header__butn,
+  .header__butn_dash {
     font-size: 1.7rem;
   }
 }
 @media (max-width: 768px) {
-  .header__butn {
+  .header__butn,
+  .header__butn_dash {
     font-size: 2rem;
   }
 }
 @media (max-width: 308px) {
-  .header__butn {
+  .header__butn,
+  .header__butn_dash {
     font-size: 1.7rem;
   }
 }

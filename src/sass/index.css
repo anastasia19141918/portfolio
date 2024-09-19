@@ -66,6 +66,21 @@ html {
 .body {
   background-color: #000000;
   overflow-x: hidden;
+  transition: background-color 0.3s ease;
+}
+
+/*.body__dark-theme {
+  background-color: $color-background;
+  overflow-x: hidden;
+}*/
+.body__light-theme {
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.light-theme {
+  color: #000000;
+  background-color: #000000;
 }
 
 li {
@@ -569,6 +584,11 @@ h1, h2, h3, p {
 .header {
   padding: 20px 60px;
 }
+@media (max-width: 878px) {
+  .header {
+    padding: 20px 30px;
+  }
+}
 @media (max-width: 768px) {
   .header {
     padding: 10px 60px;
@@ -737,12 +757,12 @@ h1, h2, h3, p {
 .portfolio-dg {
   background-image: url("../../src/img/bg/bg.jpg");
   background-repeat: no-repeat;
-  background-position: -15px 55%;
   background-size: cover;
 }
 @media (max-width: 995px) {
   .portfolio-dg {
-    background-size: auto 620px;
+    background-size: auto 680px;
+    background-position: -2px -20%;
   }
 }
 @media (max-width: 768px) {
@@ -758,24 +778,24 @@ h1, h2, h3, p {
 }
 @media (max-width: 540px) {
   .portfolio-dg {
-    background-position: 45% 50%;
+    background-position: 45% 0%;
   }
 }
 @media (max-width: 465px) {
   .portfolio-dg {
-    background-size: auto 500px;
-    background-position: 45% 90%;
+    background-size: auto 600px;
+    background-position: 60% 0%;
   }
 }
 @media (max-width: 418px) {
   .portfolio-dg {
-    background-size: auto 470px;
-    background-position: 52% 80%;
+    background-size: auto 630px;
+    background-position: 58% 0%;
   }
 }
 @media (max-width: 362px) {
   .portfolio-dg {
-    background-position: 55% 80%;
+    background-position: 55% 0%;
   }
 }
 
@@ -1487,6 +1507,17 @@ textarea::placeholder {
   background-image: url("../../src/img/topik/icon_light.png");
   background-repeat: no-repeat;
   cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.header__toggle_dark {
+  width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
+  background-image: url("../../src/img/topik/icon_dark.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
 /*# sourceMappingURL=index.css.map */

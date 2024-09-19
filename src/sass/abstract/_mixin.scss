@@ -18,6 +18,10 @@
   @media (max-width:$desktop-big) { @content; }
 };
 
+@mixin tablet-big-bg {
+  @media (max-width:$tablet-big-bg) { @content; }
+};
+
 @mixin desktop-tile-big {
   @media (max-width:$desktop-tile-big) { @content; }
 };

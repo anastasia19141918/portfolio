@@ -1,5 +1,8 @@
 .header {
   padding: 20px 60px;
+  @include tablet-big-bg {
+    padding: 20px 30px;
+  }
   @include color-tablet {
     padding: 10px 60px;
   }

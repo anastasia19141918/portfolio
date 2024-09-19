@@ -1,5 +1,8 @@
 .hero {
   padding:  185px 120px 330px 120px;
+  @include desktop-small {
+    padding:  185px 120px 30px 120px;
+  }
   @include color-tablet {
     padding: 80px 60px 230px 60px;
   }

@@ -1,10 +1,13 @@
 .header {
   padding: 20px 60px;
+  @include tablet-big-bg {
+    padding: 20px 30px;
+  }
   @include color-tablet {
     padding: 10px 60px;
   }
-  @include mobale-small {
-    padding: 10px 40px;
+  @include mobale {
+    padding: 10px 20px;
   }
   @include phone-small {
     padding: 10px 20px;
@@ -32,6 +35,9 @@
   gap: 0px 30px;
   @include color-tablet {
     gap: 0px 20px;
+  };
+  @include mobale-small-skill {
+    gap: 0px 10px;
   }
 }
 
@@ -41,7 +47,8 @@
   gap: 0 10px;
 };
 
-.header__butn {
+.header__butn,
+.header__butn_dash {
   padding: 0;
   border: none;
   color: $color-text;

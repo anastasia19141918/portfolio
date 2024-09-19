@@ -17,19 +17,21 @@
 
           <nav class="header__navigation"></nav>
              <ul class="header__itemns" id="header__itemns">
-              <a href="#skills" class="header__itemn"> <li class="header__link">Skills</li></a>
-              <a href="#portfolio" class="header__itemn"> <li class="header__link">Portfolio</li></a>
-              <a href="#video" class="header__itemn"> <li class="header__link">Video</li></a>
-              <a href="#price" class="header__itemn"> <li class="header__link">Price</li></a>
-              <a href="#contact" class="header__itemn"> <li class="header__link">Contacts</li></a>
+              <a href="#skills" class="header__itemn"> <li class="header__link" data-i18="skills">Skills</li></a>
+              <a href="#portfolio" class="header__itemn"> <li class="header__link" data-i18="portfolio">Portfolio</li></a>
+              <a href="#video" class="header__itemn"> <li class="header__link" data-i18="video">Video</li></a>
+              <a href="#price" class="header__itemn"> <li class="header__link" data-i18="price">Price</li></a>
+              <a href="#contact" class="header__itemn"> <li class="header__link" data-i18="contacts">Contacts</li></a>
             </ul>
           </nav>
 
           <div class="header__buttons">
             <button class="header__butn header__butn_active">en</button>
-            <div class="header__butn">/</div>
+            <div class="header__butn_dash">/</div>
             <button class="header__butn">ru</button>
           </div>
+
+          <div class="header__toggle"></div>
 
            <!--burger menu start-->
 
@@ -49,12 +51,12 @@
 
     <section class="hero">
       <div class="wrapper">
-        <h1 class="hero__title">Alexa Rise</h1>
-        <p class="hero__text">Save sincere emotions, romantic feelings and happy moments 
+        <h1 class="hero__title" data-i18="hero-title">Alexa Rise</h1>
+        <p class="hero__text" data-i18="hero-text">Save sincere emotions, romantic feelings and happy moments 
           of life together with professional photographer Alexa Rise
         </p>
         <div class="hero__btn">
-          <button class="button">Hire me</button>
+          <button class="button" data-i18="hire">Hire me</button>
         </div>
       </div>
     </section>
@@ -64,31 +66,31 @@
 
     <section class="skills" id="skills">
       <div class="wrapper">
-        <h2 class="title">Skills</h2>
+        <h2 class="title light-theme">Skills</h2>
         <div class="skills__gallery">
 
           <div class="skills__itemn">
             <div class="skills__img skills__img_photo"></div>
-            <div class="skills__title">Digital photography</div>
-            <p class="skills__text">High-quality photos in the studio and on the nature</p>
+            <div class="skills__title light-theme" data-i18="skill-title-1">Digital photography</div>
+            <p class="skills__text light-theme" data-i18="skill-text-1">High-quality photos in the studio and on the nature</p>
           </div>
 
           <div class="skills__itemn">
             <div class="skills__img skills__img_video"></div>
-            <div class="skills__title">Video shooting</div>
-            <p class="skills__text">Capture your moments so that they always stay with you</p>
+            <div class="skills__title light-theme" data-i18="skill-title-2">Video shooting</div>
+            <p class="skills__text light-theme" data-i18="skill-text-2">Capture your moments so that they always stay with you</p>
           </div>
 
           <div class="skills__itemn">
             <div class="skills__img skills__img_retouch"></div>
-            <div class="skills__title">Retouch</div>
-            <p class="skills__text">I strive to make photography surpass reality</p>
+            <div class="skills__title light-theme" data-i18="skill-title-3">Retouch</div>
+            <p class="skills__text light-theme" data-i18="skill-text-3">I strive to make photography surpass reality</p>
           </div>
 
           <div class="skills__itemn">
             <div class="skills__img skills__img_audio"></div>
-            <div class="skills__title">Audio</div>
-            <p class="skills__text">Professional sounds recording for video, advertising, portfolio</p>
+            <div class="skills__title light-theme" data-i18="skill-title-4">Audio</div>
+            <p class="skills__text light-theme" data-i18="skill-text-4">Professional sounds recording for video, advertising, portfolio</p>
           </div>
 
         </div>
@@ -97,12 +99,12 @@
 
     <section class="portfolio" id="portfolio">
       <div class="wrapper">
-        <h2 class="title title__portfolio">Portfolio</h2>
+        <h2 class="title light-theme title__portfolio">Portfolio</h2>
         <div class="portfolio__buttons">
-          <button class="portfolio__butn button" data-season="winter">Winter</button>
-          <button class="portfolio__butn button" data-season="spring">Spring</button>
-          <button class="portfolio__butn button" data-season="summer">Summer</button>
-          <button class="portfolio__butn button button_active" data-season="autumn">Autumn</button>
+          <button class="portfolio__butn button" data-season="winter" data-i18="winter">Winter</button>
+          <button class="portfolio__butn button" data-season="spring" data-i18="spring">Spring</button>
+          <button class="portfolio__butn button" data-season="summer" data-i18="summer">Summer</button>
+          <button class="portfolio__butn button button_active" data-season="autumn" data-i18="autumn">Autumn</button>
         </div>
         <div class="portfolio__gallery">
           <img src="./src/img/autumn/1.jpg" alt="img portfolio" class="portfolio__img">
@@ -117,7 +119,7 @@
 
     <section class="video" id="">
       <div class="wrapper">
-        <h2 class="title">Video</h2>
+        <h2 class="title light-theme">Video</h2>
         <div class="video__player">
           <img src="./src/img/video/video-player.jpg" alt="img"  class="video__img">
         </div>
@@ -126,39 +128,51 @@
 
     <section class="price" id="price">
       <div class="wrapper">
-        <h2 class="title">Price</h2>
+        <h2 class="title light-theme">Price</h2>
         <div class="price__gallery">
 
           <div class="price__itemn">
-            <h3 class="price__title">Standard</h3>
+            <h3 class="price__title light-theme">Standard</h3>
             <div class="price__sum">500 $</div>
-            <p class="price__text">
-              One location 120 photos in color 12 photos in retouch Readiness 2-3 weeks Make up, visage
+            <p class="price__text light-theme">
+              <span data-i18="price-description-1-span-1">One location</span>
+              <span data-i18="price-description-1-span-2">120 photos in color</span> 
+              <span data-i18="price-description-1-span-3"> 12 photos in retouch</span> 
+              <span data-i18="price-description-1-span-4">Readiness 2-3 weeks</span> 
+              <span data-i18="price-description-1-span-5">Make up, visage,</span>
             </p>
             <div class="price__btn">
-              <button class="button">Order shooting</button>
+              <button class="button" data-i18="order">Order shooting</button>
             </div>
           </div>
 
           <div class="price__itemn">
-            <h3 class="price__title">Premium</h3>
+            <h3 class="price__title light-theme">Premium</h3>
             <div class="price__sum">700 $</div>
-            <p class="price__text">
-              One or two locations 200 photos in color 20 photos in retouch Readiness 1-2 weeks Make up, visage
+            <p class="price__text light-theme">
+              <span data-i18="price-description-2-span-1">One or two locations</span> 
+              <span data-i18="price-description-2-span-2">200 photos in color</span> 
+              <span data-i18="price-description-2-span-3">20 photos in retouch</span>
+              <span data-i18="price-description-2-span-4">Readiness 1-2 weeks</span>
+              <span data-i18="price-description-2-span-5">Make up, visage</span> 
             </p>
             <div class="price__btn">
-              <button class="button">Order shooting</button>
+              <button class="button" data-i18="order">Order shooting</button>
             </div>
           </div>
 
           <div class="price__itemn">
-            <h3 class="price__title">Gold</h3>
+            <h3 class="price__title light-theme">Gold</h3>
             <div class="price__sum">1000 $</div>
-            <p class="price__text">
-              Three locations or more 300 photos in color 50 photos in retouch Readiness 1 week Make up, visage, hairstyle
+            <p class="price__text light-theme">
+              <span data-i18="price-description-3-span-1">Three locations</span>
+              <span data-i18="price-description-3-span-2">or more 300 photos in color</span> 
+              <span data-i18="price-description-3-span-3">50 photos in retouch</span> 
+              <span data-i18="price-description-3-span-4">Readiness 1 week</span> 
+              <span data-i18="price-description-3-span-5">Make up, visage, hairstyle</span>
             </p>
             <div class="price__btn">
-              <button class="button">Order shooting</button>
+              <button class="button" data-i18="order">Order shooting</button>
             </div>
           </div>
 
@@ -169,7 +183,7 @@
     <section class="contact" id="contact">
       <div class="wrapper">
         <div class="contact__inf">
-          <h2 class="contact__title">Contact me</h2>
+          <h2 class="contact__title" data-i18="contact-me">Contact me</h2>
           <form class="contact__form">
             <input type="email" class="contact__input" size="40" placeholder="E-mail">
             <input type="tel" class="contact__input" size="40" placeholder="Phone">
@@ -186,12 +200,12 @@
     <div class="wrapper">
       <div class="footer__desk">
         <div class="footer__block">
-          <span class="footer__copyright">©</span>
-          <span class="footer__year">2024</span>
-          <span class="footer__git"><a href="https://github.com/anastasia19141918" class="footer__git">github</a></span>
+          <span class="footer__copyright light-theme">©</span>
+          <span class="footer__year light-theme">2024</span>
+          <span class="footer__git"><a href="https://github.com/anastasia19141918" class="footer__git light-theme">github</a></span>
         </div>
         <div class="footer__itemn">
-          <a href="https://rs.school/" class="footer__link">Rolling Scopes School</a>
+          <a href="https://rs.school/" class="footer__link light-theme">Rolling Scopes School</a>
         </div>
         <div class="footer__socials">
           <ul class="footer__itemns">
@@ -206,5 +220,8 @@
 
   <script src="./src/js/burger.js"></script>
   <script src="./src/js/portfolio.js"></script>
+  <script type="module" src="./src/js/index.js"></script>
+  <script type="module" src="./src/js/translate.js"></script>
+  <script type="module" src="./src/js/toggle.js"></script>
 </body>
 </html>

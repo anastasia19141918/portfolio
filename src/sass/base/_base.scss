@@ -6,6 +6,12 @@ html {
 .body {
   background-color: $color-background;
   overflow-x: hidden;
+  transition: background-color 0.3s ease;
+};
+
+.body__light-theme {
+  background-color: $color-text;
+  overflow-x: hidden;
 };
 
 li {

@@ -18,12 +18,14 @@ const arrayClasses = [
 
 const toggle = document.querySelector('.header__toggle');
 const body =  document.querySelector('.body');
+const portfolioDg = document.querySelector('.portfolio-dg');
 
 toggle.addEventListener('click', toggleImg);
 
 function toggleImg () {
   toggle.classList.toggle('header__toggle_dark');
   body.classList.toggle('body__light-theme');
+  portfolioDg.classList.toggle('portfolio-dg_light-theme');
    arrayClasses[0].forEach(function(el){
     //el.classList.toggle('light-theme');
     

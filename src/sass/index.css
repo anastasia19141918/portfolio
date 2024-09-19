@@ -758,6 +758,7 @@ h1, h2, h3, p {
   background-image: url("../../src/img/bg/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  transition: background-color 0.3s ease;
 }
 @media (max-width: 995px) {
   .portfolio-dg {
@@ -797,6 +798,10 @@ h1, h2, h3, p {
   .portfolio-dg {
     background-position: 55% 0%;
   }
+}
+
+.portfolio-dg_light-theme {
+  filter: saturate(150%);
 }
 
 @media (max-width: 768px) {

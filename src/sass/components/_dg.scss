@@ -3,6 +3,8 @@
   background-repeat: no-repeat;
   
   background-size: cover;
+
+  transition: background-color 0.3s ease;
   @include desktop-small {
     background-size: auto 680px;
     background-position: -2px -20%;
@@ -29,3 +31,7 @@
     background-position: 55% 0%;
   }
 };
+
+.portfolio-dg_light-theme {
+  filter: saturate(150%);
+}

@@ -30,6 +30,12 @@
   color: $color-title;
 };
 
+.portfolio__butn__active {
+  color: $color-background;
+  border: 2px solid $color-background;
+  transition:  0.3s ease;
+}
+
 .button_active {
   color: $color-background;
   background-color: $color-title;

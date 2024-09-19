@@ -69,18 +69,9 @@ html {
   transition: background-color 0.3s ease;
 }
 
-/*.body__dark-theme {
-  background-color: $color-background;
-  overflow-x: hidden;
-}*/
 .body__light-theme {
   background-color: #ffffff;
   overflow-x: hidden;
-}
-
-.light-theme {
-  color: #000000;
-  background-color: #000000;
 }
 
 li {
@@ -125,6 +116,12 @@ h1, h2, h3, p {
   color: #bdae82;
 }
 
+.portfolio__butn__active {
+  color: #000000;
+  border: 2px solid #000000;
+  transition: 0.3s ease;
+}
+
 .button_active {
   color: #000000;
   background-color: #bdae82;
@@ -167,6 +164,7 @@ h1, h2, h3, p {
   height: 32px;
   background-size: 32px 32px;
   background-repeat: no-repeat;
+  transition: background-color 0.3s ease;
 }
 @media (max-width: 768px) {
   .icon__social {
@@ -184,11 +182,19 @@ h1, h2, h3, p {
 .icon__social_pinterest {
   background-image: url("../../src/img/icons/pinterest.svg");
 }
+.icon__social__inst_light {
+  background-image: url("../../src/img/icons/inst_light-theme.svg");
+}
+.icon__social__fb_light {
+  background-image: url("../../src/img/icons/fb_light-theme.svg");
+}
+.icon__social__pinterest_light {
+  background-image: url("../../src/img/icons/pinterest_light-theme.svg");
+}
 
 .title {
   position: relative;
   text-align: center;
-  color: #bdae82;
   font-size: 4rem;
   font-family: "Merriweather";
   font-style: normal;
@@ -716,7 +722,6 @@ h1, h2, h3, p {
 .footer__git,
 .footer__link {
   display: block;
-  color: #ffffff;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -986,7 +991,6 @@ h1, h2, h3, p {
 
 .skills__title {
   margin: 0 0 20px 0;
-  color: #ffffff;
   text-align: center;
   font-size: 2rem;
   font-family: "Inter";
@@ -1007,7 +1011,6 @@ h1, h2, h3, p {
 
 .skills__text {
   width: 280px;
-  color: #ffffff;
   text-align: center;
   font-size: 1.8rem;
   font-family: "Inter";
@@ -1194,7 +1197,6 @@ h1, h2, h3, p {
 
 .price__title {
   margin-bottom: 22px;
-  color: #ffffff;
   font-size: 2.8rem;
   line-height: 5.6rem;
   text-align: center;
@@ -1229,7 +1231,6 @@ h1, h2, h3, p {
   width: 180px;
   height: 220px;
   padding: 0 15px 0;
-  color: #ffffff;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -1528,6 +1529,19 @@ textarea::placeholder {
   background-repeat: no-repeat;
   cursor: pointer;
   transition: 0.3s ease;
+}
+
+.light-theme {
+  color: #bdae82;
+}
+
+.light-theme__active {
+  color: #000000;
+}
+
+.light-theme__active::before,
+.light-theme__active::after {
+  background-color: #000000;
 }
 
 /*# sourceMappingURL=index.css.map */

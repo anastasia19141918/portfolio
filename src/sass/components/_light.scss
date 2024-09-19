@@ -1,0 +1,14 @@
+.light-theme {
+  color: $color-title;
+}
+
+.light-theme__active {
+  color: $color-background;
+  
+};
+
+.light-theme__active::before,
+.light-theme__active::after {
+  background-color: $color-background
+};
+

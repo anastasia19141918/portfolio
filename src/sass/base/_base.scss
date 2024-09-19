@@ -9,20 +9,10 @@ html {
   transition: background-color 0.3s ease;
 };
 
-/*.body__dark-theme {
-  background-color: $color-background;
-  overflow-x: hidden;
-}*/
-
 .body__light-theme {
   background-color: $color-text;
   overflow-x: hidden;
 };
-
-.light-theme {
-  color: $color-background;
-  background-color: $color-background;
-}
 
 li {
   list-style-type: none;

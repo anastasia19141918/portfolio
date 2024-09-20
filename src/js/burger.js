@@ -1,9 +1,11 @@
 const burger = document.getElementById('burger');
-const burgerItemns = document.getElementById('header__itemns');
+const burgerItemns = document.querySelector('.header__navigation');
+const itemns = document.querySelector('.header__itemns');
 
 burger.addEventListener('click', function(){
   burger.classList.toggle('burger__active');
   burgerItemns.classList.toggle('header__itemns__active');
+  //itemns.classList.toggle('header__itemns__active');
 });
 
 burgerItemns.addEventListener('click', function(){

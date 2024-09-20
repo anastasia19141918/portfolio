@@ -1,13 +1,13 @@
 html {
   scroll-behavior: smooth;
   font-size: 10px;
-  overflow-x: hidden;
+  //overflow-x: hidden;
 };
 
 
 .body {
   background-color: $color-background;
-  overflow-x: hidden;
+  //overflow-x: hidden;
   transition: background-color 0.3s ease;
 };
 

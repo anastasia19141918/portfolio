@@ -1,7 +1,7 @@
 .video {
-  padding: 68px 0px 30px;
+  padding: 68px 20px 30px;
   @include color-tablet {
-    padding: 50px 0px 30px;
+    padding: 50px 20px 30px;
   }
 };
 
@@ -10,17 +10,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
   max-width: 1400px;
   height: calc(46% - 60px);
   max-height: 705px;
-  border: 2px solid $color-title;
-  @include desktop-big-contact {
-    padding: 0 20px;
-  }
 };
 
 .viewer {
   height: auto;
+  width: calc(100% + 2px);
 };
 
 .video__btn {
@@ -35,14 +33,27 @@
   background-position: center center;
   cursor: pointer;
   transition: 0.1s ease-in-out;
+  @include color-tablet {
+    margin-left: 37%;
+  }
+  @include color-tablet {
+    width: 75px;
+    height: 75px;
+    margin-left: 42%;
+    margin-top: -10%;
+  }
+  @include mobale-small-skill {
+    margin-left: 36%;
+    margin-top: -17%
+  }
 }
 
 .video__controls {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: calc(100% + 2px);
   padding: 10px 5px;
+  border: 2px solid $color-title;
 };
 
 .play-icon {
@@ -53,6 +64,10 @@
   background-repeat: no-repeat;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  @include phone-title {
+    width: 30px;
+    height: 26px;
+  }
 };
 
 .play {
@@ -70,6 +85,28 @@
   outline: none;
   -webkit-appearance: none;
   background: linear-gradient(to right, #bdae82 0%, #bdae82 40%, #c8c8c8 40%, #c8c8c8 100%);
+  @include color-tablet {
+    width: 100%;
+    left: 0;
+    top: 82%;
+    position: absolute
+  }
+  @include tablet-big-skills {
+    top: 80%;
+  }
+  @include tablet-small {
+    top: 76%;
+  }
+  @include phone-title {
+    top: 76%;
+    height: 8px;
+  }
+  @include mobale {
+    top: 74%;
+  }
+  @include mobale-small-skill {
+    top: 69%;
+  }
 };
 
 .volume__progress {
@@ -77,6 +114,12 @@
   -webkit-appearance: none;
   height: 10px;
   background: linear-gradient(to right, #bdae82 0%, #bdae82 40%, #c8c8c8 40%, #c8c8c8 100%);
+  @include color-tablet {
+    width: calc(85% - 40px);
+  }
+  @include phone-title {
+    height: 8px;
+  }
 }
 
 

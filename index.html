@@ -117,11 +117,18 @@
       </div>
     </section>
 
-    <section class="video" id="">
+    <section class="video" id="video">
       <div class="wrapper">
         <h2 class="title light-theme">Video</h2>
         <div class="video__player">
-          <!--<img src="./src/img/video/video-player.jpg" alt="img"  class="video__img">-->
+          <video src="./src/img/video/video.mp4" class="viewer"></video>
+          <div class="video__btn"></div>
+          <div class="video__controls">
+            <div class="play-icon play"></div>
+            <input type="range" value="40" min="0" max="100" step="1" class="video__progress progress">
+            <div class="play-icon volume"></div>
+            <input type="range" value="40" min="0" max="100" step="1" class="volume__progress progress">
+          </div>
         </div>
       </div> 
     </section>
@@ -223,5 +230,6 @@
   <script type="module" src="./src/js/index.js"></script>
   <script type="module" src="./src/js/translate.js"></script>
   <script type="module" src="./src/js/toggle.js"></script>
+  <script src="./src/js/video.js"></script>
 </body>
 </html>

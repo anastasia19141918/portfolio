@@ -96,6 +96,10 @@
   @media (max-width:$mobale-small) { @content; }
 };
 
+@mixin tablet-small-burger-menu {
+  @media (max-width:$tablet-small-burger-menu) { @content; }
+};
+
 @mixin mobale-small-skill {
   @media (max-width:$mobale-small-skill) { @content; }
 };

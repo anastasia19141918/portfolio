@@ -1264,8 +1264,16 @@ h1, h2, h3, p {
   background-image: url("../../src/img/video/play.svg");
 }
 
+.pause {
+  background-image: url("../../src/img/video/pause.svg");
+}
+
 .volume {
   background-image: url("../../src/img/video/volume.svg");
+}
+
+.volume__not-active {
+  background-image: url("../../src/img/video/mute.svg");
 }
 
 .video__progress {
